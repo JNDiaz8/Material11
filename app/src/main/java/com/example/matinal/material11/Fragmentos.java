@@ -27,9 +27,9 @@ public class Fragmentos extends Fragment {
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragmentos, container, false);
+        TextView titulo = view.findViewById(R.id.tituloFrag);
         String title = getArguments().getString(ARG_SECTION_TITLE);
-        TextView titutlo = view.findViewById(R.id.titulo);
-        titutlo.setText(title);
+        titulo.setText(title);
         return view;
     }
 }

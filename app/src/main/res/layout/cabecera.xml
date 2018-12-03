@@ -21,19 +21,17 @@
         app:border_width="1dp"/>
 
     <TextView
+        style="@style/TextAppearance.AppCompat.Body1"
         android:id="@+id/titulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:theme="@style/TextAppearance.AppCompat.Body1"
         android:textStyle="bold"
         android:text="Michelangelo Buonarroti"/>
 
     <TextView
+        style="@style/Widget.AppCompat.Spinner"
         android:id="@+id/subtitulo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        style="@style/Widget.AppCompat.Spinner"
-        android:text="Caprese 6 de marzo de 1475"/>
-
-
+        android:text="Caprese 6 de Marzo de 1475" />
 </LinearLayout>
